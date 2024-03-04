@@ -7,4 +7,4 @@ services:
   frontend:
     image: chawanakorns/lab10-2-docker-test-new
     ports:
-      - 8081:80
+      - 8091:80
