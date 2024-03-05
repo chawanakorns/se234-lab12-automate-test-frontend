@@ -6,7 +6,7 @@ services:
       - 8082:8080
     volumes:
       - type: bind
-        source: 'data.xlsx'
+        source: 'data/data.xlsx'
         target: /data
   frontend:
     image: chawanakorns/lab11-frontend
