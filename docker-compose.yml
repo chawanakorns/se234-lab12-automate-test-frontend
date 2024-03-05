@@ -6,7 +6,7 @@ services:
       - 8082:8080
     volumes:
       - type: bind
-        source: 'D:/Chiang Mai University/Year 2/TERM 2/DEV OPS/Lab 10/data/data.xlsx'
+        source: 'C:/Users/User/OneDrive/Desktop/data.xlsx'
         target: /data
   frontend:
     image: chawanakorns/lab11-frontend
