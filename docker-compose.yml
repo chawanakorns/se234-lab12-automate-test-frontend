@@ -4,10 +4,6 @@ services:
     image: dto80/se234-lab12:latest
     ports:
       - 8082:8080
-    volumes:
-      - type: bind
-        source: 'data/data.xlsx'
-        target: /data
   frontend:
     image: chawanakorns/lab11-frontend
     ports:
